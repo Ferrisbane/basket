@@ -1,0 +1,29 @@
+{
+  "name": "ferrisbane/basket",
+  "description": "A small basket package that packs a punch.",
+  "keywords": [
+    "database",
+    "processor",
+    "php",
+    "shortcode"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ferrisbane",
+      "email": "basket.git@ferrisbane.co.uk"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ferrisbane\\Basket\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "minimum-stability": "stable"
+}
